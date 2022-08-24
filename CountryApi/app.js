@@ -3,11 +3,6 @@ $(document).ready(function(){
 
 //Get the City name
 var cityname = $('#cityName').val();
-alert(cityname);
-//var cityname = document.getElementById('cityName');
-
-
-//getCountry();
 
 
 $.ajax({
@@ -29,8 +24,6 @@ $.ajax({
 
 
     });
-
-
 
 
 
