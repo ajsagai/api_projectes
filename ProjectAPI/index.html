@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="main.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="search.js"></script>
+    <title>API Training</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            Logo
+            <img src="images/icons8-logo-50.png" alt="">
+        </div>
+        <nav>
+            <div class="nav-links">
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </div>
+
+
+    </header>
+
+
+    <form>
+        <h2>NYSC INFORMATION</h2>
+             <hr />
+        <label for="nin">National Identification Number (NIN):</label>
+        <input id="txtNIN" name="nin" type="text" value="" />
+
+        <button id="btnVerifyNIN" type="button" value="Submit">Submit</button>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <label for="name">Name: </label>
+        <input id="txtName" name="surname" type="text" placeholder="Surname" />
+        <input id="txtOthernames" name="othernames" type="text" placeholder="Othernames" /> <br />
+        <br />
+        <label for="batch">Service Batch:</label><br />
+        <input type="radio" id="txtBatch" name="batch" value="A">
+        <label for="batch">A</label><br>
+        <input type="radio" id="txtBatch" name="batch" value="B">
+        <label for="B">B</label><br>
+        <input type="radio" id="txtBatch" name="batch" value="C">
+        <label for="C">C</label><br>
+        <br />
+        <label for="state_code">State Code: </label>
+        <input id="txtStateCode" name="state_code" type="text" value="" placeholder="for example AD/22A/0112" />
+        <br />
+        <label for="callup_no">Call-up Number: </label>
+        <input id="txtCallupno" name="callup_no" type="text" value="" placeholder="for example 2022100123" />
+        <br />
+        <label for="gender">Gender</label><br />
+        <input id="txtGender" type="radio" id="Male" name="gender" value="M">
+        <label for="gender">M<br />
+            <input id="txtGender" type="radio" id="Fenmale" name="gender" value="F">
+            <label for="gender">F</label><br />
+            <label for="ppa">Place of Primary Assignment (PPA): </label>
+            <input id="txtPPa" name="ppa" type="text" value="" />
+            <br />
+
+    </form>
+
+
+</body>
+
+</html>
